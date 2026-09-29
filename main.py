@@ -18,4 +18,13 @@ def add_student():
     students.append(student)
     print("Student added successfully!")
 
+def view_students():
+    if len(students) == 0:
+        print("No students found.")
+        return
+
+    for student in students:
+        print("\nName:", student["name"])
+        print("Roll No:", student["roll"])
+        print("Branch:", student["branch"])
 
