@@ -1,6 +1,5 @@
 students = []
 
-
 def add_student():
     name = input("Enter student name: ")
     roll = input("Enter roll number: ")
